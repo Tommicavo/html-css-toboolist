@@ -11,6 +11,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding-left: 10px;
+}
+
+
 /* Header */
 
 header{
@@ -28,6 +37,8 @@ header{
     font-size: 40px;
     font-weight: 800;
 }
+
+/* Container */
 
 .container{
     width: 1080px;
@@ -60,6 +71,39 @@ header{
     margin: 0 auto;
 }
 
-.main_header{
+.sections_center{
     padding: 20px 40px;
 }
+
+/* list */
+
+.list_title{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.arrow{
+    font-size: 58px;
+}
+
+.list_true{
+    border: 2px solid green;
+    border-radius: 50%;
+    color: green;
+    padding: 2px;
+}
+
+.list_label{
+    font-size: 12px;
+    border-radius: 50%;
+    color: white;
+    padding: 5px 10px;
+}
+
+.blu{
+    background-color: #45ABEA;
+}
+
+
+
+
